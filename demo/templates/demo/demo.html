@@ -79,13 +79,12 @@
           <div class="device-container">
               <iframe width="560" height="315" src="https://www.youtube.com/embed/iGzDB5-Ub-8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-
-
           </div>
         </div>
       </div>
     </div>
   </header>
+
 
 <section class="features" id="features">
     <div class="container">
@@ -98,6 +97,39 @@
       <div class="row">
         <div class="col-lg-6 my-auto">
           <div class="device-container">
+            <div class="device-mockup ipad landscape white">
+              <div class="device">
+                <div class="screen">
+                  <!-- Demo image for screen mockup, you can put an image here, some HTML, an animation, video, or anything else! -->
+                  <img src="{% static 'img/hashmap_pc_demo2.gif' %}" class="img-fluid" alt="">
+                </div>
+                <div class="button">
+                  <!-- You can hook the "home button" to some JavaScript events or just remove it -->
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <br><br><br>
+
+
+          <div class="device-container">
+            <div class="device-mockup ipad_pro landscape white">
+              <div class="device">
+                <div class="screen">
+                  <!-- Demo image for screen mockup, you can put an image here, some HTML, an animation, video, or anything else! -->
+                  <img src="{% static 'img/hashmap_pc_demo2.gif' %}" class="img-fluid" alt="">
+                </div>
+                <div class="button">
+                  <!-- You can hook the "home button" to some JavaScript events or just remove it -->
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <br><br><br>
+
+        <div class="device-container">
             <div class="device-mockup macbook landscape white">
               <div class="device">
                 <div class="screen">
@@ -110,14 +142,32 @@
               </div>
             </div>
           </div>
+
+            <br><br><br>
+
+          <div class="device-container">
+            <div class="device-mockup imac landscape white">
+              <div class="device">
+                <div class="screen">
+                  <!-- Demo image for screen mockup, you can put an image here, some HTML, an animation, video, or anything else! -->
+                  <img src="{% static 'img/hashmap_pc_demo2.gif' %}" class="img-fluid" alt="">
+                </div>
+                <div class="button">
+                  <!-- You can hook the "home button" to some JavaScript events or just remove it -->
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
+
+
         <div class="col-lg-6 my-auto">
           <div class="container-fluid">
             <div class="row">
               <div class="col-lg-6">
                 <div class="feature-item">
                   <i class="icon-control-play text-primary"></i>
-                  <a href="https://core.hash.ai/@jacksonle/demandtest/main" ><h3>Click Link to Get Started</h3></a>
+                  <a href="#hash.ai" ><h3>Click Link to Get Started</h3></a>
                   <p class="text-muted">You will be redirected to the simulation dashboard. You may need to register to use the simulation.</p>
                 </div>
               </div>
@@ -134,7 +184,8 @@
             <div class="row">
               <div class="col-lg-6">
                 <div class="feature-item">
-                  <i class="icon-check text-primary"></i>
+                  <!-- <i class="icon-check text-primary"></i> -->
+                  <svg width="100" height="100" viewBox="0 0 24 24" class="Icon IconRunFast"><path fill-rule="evenodd" clip-rule="evenodd" d="M15.375 6.938a1.5 1.5 0 100-3 1.5 1.5 0 000 3zm-2.7 10.425l.75-3.3 1.575 1.5v4.5h1.5v-5.625l-1.575-1.5.45-2.25a5.49 5.49 0 004.125 1.874v-1.5a3.69 3.69 0 01-3.225-1.8l-.75-1.2c-.27-.45-.75-.732-1.275-.75-.113 0-.206.02-.3.038-.094.019-.188.038-.3.038l-3.9 1.65v3.524h1.5v-2.55l1.35-.524-1.2 6.075-3.675-.75-.3 1.5 5.25 1.05zM5.25 8.813c0 .414.336.75.75.75h2.25v-1.5H6a.75.75 0 00-.75.75zm1.5-2.25a.75.75 0 110-1.5h3.75v1.5H6.75zm-2.25 5.25c0 .414.336.75.75.75h3v-1.5h-3a.75.75 0 00-.75.75z"></path></svg>
                   <h3>Click to Start Simulation.</h3>
                   <p class="text-muted">Click the "Running Man" icon at the bottom of the map to start the simulation.</p>
                 </div>
@@ -146,6 +197,16 @@
       </div>
     </div>
   </section>
+
+<section class="masthead" id="hash.ai">
+    <div class="container">
+            <div class="col-lg-16 my-auto">
+                <div class="device-container">
+                  <iframe height=600 style="min-height:700; width:100%;" src="https://core.hash.ai/@jacksonle/demandtest/main" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+    </div>
+</section>
 
 
   <header style="position: relative; z-index: 1;">
@@ -165,6 +226,8 @@
 
     <div class="overlay"></div>
   </section>
+
+
 
   <section class="contact bg-primary" id="contact">
     <div class="container">
